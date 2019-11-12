@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://berthabrenes.github.io/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://berthabrenes.github.io/categories/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/example/</loc>
+    <loc>https://berthabrenes.github.io/tags/example/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2017/11/29/example-post/</loc>
+    <loc>https://berthabrenes.github.io/2017/11/29/example-post/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/hugo/</loc>
+    <loc>https://berthabrenes.github.io/categories/hugo/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
+    <loc>https://berthabrenes.github.io/post/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/r/</loc>
+    <loc>https://berthabrenes.github.io/categories/r/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://berthabrenes.github.io/tags/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2016/12/30/a-plain-markdown-post/</loc>
+    <loc>https://berthabrenes.github.io/2016/12/30/a-plain-markdown-post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2015/01/01/lorem-ipsum/</loc>
+    <loc>https://berthabrenes.github.io/2015/01/01/lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/login/</loc>
+    <loc>https://berthabrenes.github.io/login/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/profile/</loc>
+    <loc>https://berthabrenes.github.io/profile/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/components/</loc>
+    <loc>https://berthabrenes.github.io/components/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/landing/</loc>
+    <loc>https://berthabrenes.github.io/landing/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/template/</loc>
+    <loc>https://berthabrenes.github.io/template/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/traveler/</loc>
+    <loc>https://berthabrenes.github.io/traveler/</loc>
   </url>
   
 </urlset>
