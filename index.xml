@@ -6,46 +6,19 @@
     <description>Recent content on Bertha Brenes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
     
 	<atom:link href="https://berthabrenes.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>example post</title>
-      <link>https://berthabrenes.github.io/2017/11/29/example-post/</link>
-      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://berthabrenes.github.io/2017/11/29/example-post/</guid>
-      <description>Awesome blog post</description>
-    </item>
-    
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>https://berthabrenes.github.io/2016/12/30/a-plain-markdown-post/</link>
+      <title>Welcome to the Bertha Blog</title>
+      <link>https://berthabrenes.github.io/2016/12/30/welcome-to-the-bertha-blog/</link>
       <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
       
-      <guid>https://berthabrenes.github.io/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>https://berthabrenes.github.io/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>https://berthabrenes.github.io/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://berthabrenes.github.io/login/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://berthabrenes.github.io/login/</guid>
-      <description>          Get Started   Create Account    Need Help?     </description>
+      <guid>https://berthabrenes.github.io/2016/12/30/welcome-to-the-bertha-blog/</guid>
+      <description>Hi you Welcome to my blog. I made it with Hugo platform and with github pages, to show my recents projects in the intern in Paris and the university. Show my medium post, and futher my travel adventures.
+Hope you like it ;)</description>
     </item>
     
     <item>
@@ -67,16 +40,16 @@
     </item>
     
     <item>
-      <title>Write the best title for your page.</title>
+      <title>Projects</title>
       <link>https://berthabrenes.github.io/landing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://berthabrenes.github.io/landing/</guid>
-      <description>Who are we? According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDC lead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice extent in the Pacific and a late drop in ice extent in the Barents Sea.    &#34;Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctichas increased very slightly&#34;</description>
+      <description>Agroecology in the digital age To realize a digital enquiry of the agroecological turn in Costa Rica, and more largely in Central America through the setup of consistent and appropriated datasets in order to analtze the production and circulation of knowledge through different channels of social-media Los Juegos Universitarios Costarricenses Create an application with realtime streaming of all the games of JUNCOS more than 9 sport disciplines, with notifications, favorites, and results.</description>
     </item>
     
     <item>
-      <title>Write the best title for your page.</title>
+      <title>Projects</title>
       <link>https://berthabrenes.github.io/template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -86,12 +59,12 @@
     </item>
     
     <item>
-      <title>Write the best title for your page.</title>
-      <link>https://berthabrenes.github.io/traveler/</link>
+      <title>Traveler</title>
+      <link>https://berthabrenes.github.io/login/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://berthabrenes.github.io/traveler/</guid>
-      <description>Who are we? According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDC lead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice extent in the Pacific and a late drop in ice extent in the Barents Sea.    &#34;Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctichas increased very slightly&#34;</description>
+      <guid>https://berthabrenes.github.io/login/</guid>
+      <description>  Travels Experiences    Barcelona       Nature, United States   Somewhere Beyond, United States   Yellowstone National Park, United States             El Salvador     Nature, United States   Somewhere Beyond, United States   Yellowstone National Park, United States             Cuba     Nature, United States   Somewhere Beyond, United States   Yellowstone National Park, United States             Suiza     Nature, United States   Somewhere Beyond, United States   Yellowstone National Park, United States             Alemania     Nature, United States   Somewhere Beyond, United States   Yellowstone National Park, United States              </description>
     </item>
     
   </channel>
