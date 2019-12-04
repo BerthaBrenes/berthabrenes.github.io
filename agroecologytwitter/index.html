@@ -104,10 +104,87 @@
             
 
 <div class="row">
-    <div class="col-md-8 ml-auto mr-auto text-left">
-        <h3>Site in process</h3>
+  <div class="col-md-8 ml-auto mr-auto text-left">
+    <h3>Twitter explorer</h3>
+    <p>For twitter I use <a class="title" href="https://github.com/twintproject/twint8" >Twin</a>  library for all the exploration. Using two queries:
+      <br>
+      1. Spanish = ’agroecologia, agroecolog ́ıa, agricultura ecologica, agroecologico”
+      <br>
+      2. English = ’agroecology, agroecological, agriculture ecological”
+      <br>
+      For each query we get, the existing # and @, who are the people who is writing,Terms extraction, Name entity recognition, geomapping and another several analysis
+    </p>
 
+    <h3>All the tweets by time</h3>
+    <img src="/img/twitter/yearsAllTweet.png" alt="" > 
 
+    <h2>English Query</h2>
+    <h3>Tweet by time</h3>
+    <img src="/img/twitter/YearsTweetsEnglish.png" alt="" >
+
+    <h3>Map of who made the most common Term and Which Term</h3>
+    <p>You can see in detail the map <a href="https://documents.cortext.net/0640/064094fe9fb318b3bafb1b6a5f2b65c8/156435/contingency_matrix-cleandataenfinal-tsv-csv-logFalse-username-Terms-y2008_2019-reordered-nFchi2.pdf"></a>here</p>
+    <img src="/img/twitter/TermsUsers.png" alt="" >
+
+    <h3>Map of the most common hashtags related with the terms</h3>
+    <p>You can see the map in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/be78496e2c5c7e7087556f54db5201aa#">here</a></p>
+    <img src="/img/twitter/HashtagsMAp.png" alt="" >
+ 
+    <h3>The most commons hashtags</h3>
+    <img src="/img/twitter/MustHashtags.png" alt="" >
+
+    <h3>The most common users, who are talking about about the specific hashtag agroecology</h3>
+    <img src="/img/twitter/UserAgroecology.png" alt="">
+
+    <h3>Which '@' are related to the hashtags</h3>
+    <p>You can see in detail the map <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/c92c5d3652921ba772bc16a3931ad401#">here</a>
+    <br></p>
+    <img src="/img/twitter/HashtagsAT.png" alt=""  >
+
+    <h3>The Most common Terms in the Data</h3>
+    <p><br>You can see in detail the map <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/2532d5ae7615d817e3bb834af9997287">here</a> <br></p> 
+    <img src="/img/twitter/TermsNetwork.png" alt=""  >
+
+    <p><br>The terms extraction <a href="https://managerv2.cortext.net/view/csv/77439c846533207d5c52c33feb250bed">here</a> <br></p>
+    <img src="/img/twitter/TermsExtractionET.png" alt="">
+
+    <h3>The geoMapping with the countries involves in the tweets</h3>
+    <p><br>You can see the network in detail <a href="https://geomapping.cortext.net/#/map/c007157f225f36a5199b01c1481b9d2a">here</a> <br></p>
+    <img src="/img/twitter/mapTwitterEnglish.png" alt=""  >
+
+    <h2>Spanish Query</h2>
+    <h3>Tweet by Period</h3>
+    <img src="/img/twitter/YearsTweetsSpanish.png" alt="" >
+
+    <h3>Map of who made the most common Term and Which Term</h3>
+    <p><br>You can see the network in detail <a href="https://documents.cortext.net/fd3d/fd3ddc18a677db3d2a5618f85d8e2813/156558/contingency_matrix-dataesfinalhastaga-csv-logFalse-ISItermsNoMonoTerms-username-y2007_2019-reordered-nFchi2.pdf">here</a> <br></p>
+    <img src="/img/twitter/UsersVsHashtagsES.png" alt=""  >
+
+    <h3>Map of the most common hashtags related with the terms</h3>
+    <p><br>You can see the network in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/be78496e2c5c7e7087556f54db5201aa#">here</a> <br></p>
+    <img src="/img/twitter/HashtagsMAp.png" alt=""  >
+    
+    <h3>The most commons hashtags</h3>
+    <img src="/img/twitter/MustHashtags.png" alt="">
+
+    <h3>The most common users, who are talking about about the specific hashtag agroecology</h3>
+    <img src="/img/twitter/UserAgroecology.png" alt="">
+
+    <h3>Which '@' are related to the hashtags</h3>
+    <p><br>You can see the network in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/c92c5d3652921ba772bc16a3931ad401#">here</a> <br></p>
+    <img src="/img/twitter/HashtagsAT.png" alt="">
+  
+    <h3>The Most common Terms in the Data</h3>
+    <p><br>You can see the network in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/ecd963f287da1c5d5464c1e2f26c42f8#">here</a> <br></p>
+    <p><br>This terms extraction is bigger, so I take two shots for a better visualization<br></p>
+    <img src="/img/twitter/TermsExtractionES1.png" alt="">
+    <img src="/img/twitter/TermsExtractionES2.png" alt="">
+    <p><br>The terms extraction <a href="https://managerv2.cortext.net/view/csv/55b26d4fc610dc7f9e50380f71fff1d8">here</a> <br></p>
+    <img src="/img/twitter/MostCommonSpanishTerms.png" alt="">
+
+    <h3>The geoMapping with the countries involves in the tweets</h3>
+    <p><br>You can see the map in detail <a href="https://geomapping.cortext.net/#/map/c007157f225f36a5199b01c1481b9d2a">here</a> <br></p>
+    <img src="/img/twitter/mapTwitterEnglish.png" alt="">
     </div> 
   </div>
 
