@@ -107,10 +107,10 @@
     <div class="col-md-8 ml-auto mr-auto text-left">
         <h2>Facebook Analysis</h2>
         <p>The best way to extract data from Facebook is scrapping the page, unless you have a complete and finish application that Facebook approve for give you access to API(limite access) not even let you scrap with freedom, but after all the struggles that facebook had with personal information is complety understanding this new rules <br>
-        The way I made this scrapper is good in sintesis but still have some points to fix and get better for example, indentify the type of publication and clasify differently each type of publication(video, replies, images, just text post), better extract of dates and real text <br>
+        The way I made this scrapper is good in sintesis but still have some points to fix and get better for example, identify the type of publication and clasify differently each type of publication(video, replies, images, just text post), better extract of dates and real text <br>
         When you use you personal account to extract data, the page will try to configurate all the pages in your language, in my case Spanish; therefore the text extraction it was in Spanish even when the queries was in english <br>
         Thus the idea of analyze the information by language it wasn't an option and the best way was to merge everything for the analysis
-        <br>In any case is important to mention thart we use two queries: one for english and spanish.
+        <br>In any case is important to mention that we use two queries: one for english and spanish.
         <ol>
           <li>Agroecologia OR Agroecologico (8606 text publication)</li>
           <li>Agroecology OR Agroecological (12000 text publication)</li>
@@ -120,20 +120,152 @@
         <h3>Tools used </h3>
         <p>My own script following the same structure of my first tutorial, I also wrote a post on <a href="https://medium.com/@bertacaro1996/is-possible-to-scrap-facebook-data-in-2019-65b26e6ec07">medium</a> </p>
         
-        <h3>Network map of the most used Terms and the pages </h3>
+        <h3>Network map of the most used hashtags and the pages </h3>
+        <p>Extracting hashtags from the text publication and then associated with the pages who use it, the extraction was using cortext terms extraction</p>
         <p>You can see the network map in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/1bc35eb4733fb22cb95b14b61bba101b#">here</a></p>
-        <img src="/img/facebook/HashtagsUSers.png" alt="">
+        <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/1bc35eb4733fb22cb95b14b61bba101b#"  width="800" height="800">
+          <p>Your browser does not support iframes.</p>
+        </iframe>
+        <!--<img src="/img/facebook/HashtagsUSers.png" alt="">-->
+        
         
         <h3>The top 5 of pages by Likes</h3>
         <h4>Merge Data</h4>
-        <img src="/img/facebook/Top5Merge.png" alt="">
+        <style type="text/css">
+          .tg  {border-collapse:collapse;border-spacing:0;}
+          .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+          .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+          .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+          </style>
+          <table class="tg">
+            <tr>
+              <th class="tg-0pky">Page Name<br></th>
+              <th class="tg-0pky"><br>Quantity of likes<br></th>
+            </tr>
+            <tr>
+              <td class="tg-0pky">Organic Seed  Alliance<br></td>
+              <td class="tg-0pky">336000</td>
+            </tr>
+            <tr>
+              <td class="tg-0pky">Permaculture Magazine<br></td>
+              <td class="tg-0pky">305000<br></td>
+            </tr>
+            <tr>
+              <td class="tg-0pky">Permaculture<br></td>
+              <td class="tg-0pky">158000<br></td>
+            </tr>
+            <tr>
+              <td class="tg-0pky">Permaculture Guild<br></td>
+              <td class="tg-0pky">122000<br></td>
+            </tr>
+            <tr>
+              <td class="tg-0pky">Journal of Environmental &amp; Agricultural Sciences JEAS<br></td>
+              <td class="tg-0pky">62000<br></td>
+            </tr>
+            <tr>
+              <td class="tg-0pky">Bandera Azul Ecologica</td>
+              <td class="tg-0pky">1</td>
+            </tr>
+          </table>
         
         <h3>The Pages with the most quantity of publications</h3>
-        <p>All the Data Merged. In two photos for a better visualization <br>
-         You can see in detail  <a href="https://photos.app.goo.gl/sE8V5pJ41YyUXoq37">here</a> </p>
-          <img src="/img/facebook/MostComment1Merge.png" alt="">
-          <p>You can see in detail <a href="https://photos.app.goo.gl/khGQgXPP5b2UaoHz5">here</a></p>
-          <img src="/img/facebook/MostComment2Merge.png" alt=""> 
+        <p>All the Data Merged with all the pages and their posts<br>
+         You can see in detail the 2 photos  <a href="https://photos.app.goo.gl/sE8V5pJ41YyUXoq37">here</a> and <a href="https://photos.app.goo.gl/khGQgXPP5b2UaoHz5">here</a> </p>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+</style>
+<script>
+function imageZoom(imgID, resultID) {
+  var img, lens, result, cx, cy;
+  img = document.getElementById(imgID);
+  result = document.getElementById(resultID);
+  /*create lens:*/
+  lens = document.createElement("DIV");
+  lens.setAttribute("class", "img-zoom-lens");
+  /*insert lens:*/
+  img.parentElement.insertBefore(lens, img);
+  /*calculate the ratio between result DIV and lens:*/
+  cx = result.offsetWidth / lens.offsetWidth;
+  cy = result.offsetHeight / lens.offsetHeight;
+  /*set background properties for the result DIV:*/
+  result.style.backgroundImage = "url('" + img.src + "')";
+  result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
+  /*execute a function when someone moves the cursor over the image, or the lens:*/
+  lens.addEventListener("mousemove", moveLens);
+  img.addEventListener("mousemove", moveLens);
+  /*and also for touch screens:*/
+  lens.addEventListener("touchmove", moveLens);
+  img.addEventListener("touchmove", moveLens);
+  function moveLens(e) {
+    var pos, x, y;
+    /*prevent any other actions that may occur when moving over the image:*/
+    e.preventDefault();
+    /*get the cursor's x and y positions:*/
+    pos = getCursorPos(e);
+    /*calculate the position of the lens:*/
+    x = pos.x - (lens.offsetWidth / 2);
+    y = pos.y - (lens.offsetHeight / 2);
+    /*prevent the lens from being positioned outside the image:*/
+    if (x > img.width - lens.offsetWidth) {x = img.width - lens.offsetWidth;}
+    if (x < 0) {x = 0;}
+    if (y > img.height - lens.offsetHeight) {y = img.height - lens.offsetHeight;}
+    if (y < 0) {y = 0;}
+    /*set the position of the lens:*/
+    lens.style.left = x + "px";
+    lens.style.top = y + "px";
+    /*display what the lens "sees":*/
+    result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
+  }
+  function getCursorPos(e) {
+    var a, x = 0, y = 0;
+    e = e || window.event;
+    /*get the x and y positions of the image:*/
+    a = img.getBoundingClientRect();
+    /*calculate the cursor's x and y coordinates, relative to the image:*/
+    x = e.pageX - a.left;
+    y = e.pageY - a.top;
+    /*consider any page scrolling:*/
+    x = x - window.pageXOffset;
+    y = y - window.pageYOffset;
+    return {x : x, y : y};
+  }
+}
+</script>
+</head>
+<body>
+
+<p>Mouse over the image for a zoom:</p>
+
+<div class="img-zoom-container">
+  <img id="myimage" src="/img/facebook/AllPageComment.png" width="80%" height="20%">
+  <div id="myresult" class="img-zoom-result"></div>
+</div>
+
+<script>
+// Initiate zoom effect:
+imageZoom("myimage", "myresult");
+</script>
+
           <h3>Geomap using the NER of the Text Publication</h3>
           <p>This Location terms if abouth what the people talk, doesnt means is the place where the people are</p>
           <img src="/img/facebook/mapFacebook.png" alt="">
