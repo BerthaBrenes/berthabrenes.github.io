@@ -106,10 +106,17 @@
 <div class="row">
     <div class="col-md-8 ml-auto mr-auto text-left">
         <h2>Facebook Analysis</h2>
-        <p>This first exploration has some problems in the scrapper. First one take traslated and Not traslated text Publication, so we could'n separeted by query, largery for language. And the second problem was, my scrapper didn't take the dates of each publication so its imposible to plot by year.
-          <br>We use the same query for english and spanish.
-          <br> From Facebook we get 21139 Text publications, we get more but to many was just search post, photos, videos without text to analyze. And most of these data came from Spanish<br> 
-        </p>
+        <p>The best way to extract data from Facebook is scrapping the page, unless you have a complete and finish application that Facebook approve for give you access to API(limite access) not even let you scrap with freedom, but after all the struggles that facebook had with personal information is complety understanding this new rules <br>
+        The way I made this scrapper is good in sintesis but still have some points to fix and get better for example, indentify the type of publication and clasify differently each type of publication(video, replies, images, just text post), better extract of dates and real text <br>
+        When you use you personal account to extract data, the page will try to configurate all the pages in your language, in my case Spanish; therefore the text extraction it was in Spanish even when the queries was in english <br>
+        Thus the idea of analyze the information by language it wasn't an option and the best way was to merge everything for the analysis
+        <br>In any case is important to mention thart we use two queries: one for english and spanish.
+        <ol>
+          <li>Agroecologia OR Agroecologico (8606 text publication)</li>
+          <li>Agroecology OR Agroecological (12000 text publication)</li>
+        </ol>
+        And we didnt use the separation of the word agroecology with "-" because in Facebook its not relevant and get the same results.
+        <br>Note: This data is exclusive of text publication</p>
         <h3>Tools used </h3>
         <p>My own script following the same structure of my first tutorial, I also wrote a post on <a href="https://medium.com/@bertacaro1996/is-possible-to-scrap-facebook-data-in-2019-65b26e6ec07">medium</a> </p>
         
