@@ -106,35 +106,36 @@
 <div class="row">
   <div class="col-md-8 ml-auto mr-auto text-left">
     <h3>Twitter explorer</h3>
-    <p>For twitter I use <a class="title" href="https://github.com/twintproject/twint8" >Twin</a>  library for all the exploration. Using two queries:
+    <p>For twitter I was using two queries:
       <br>
-      1. Spanish = ’agroecologia, agroecolog ́ıa, agricultura ecologica, agroecologico”
+      1. Spanish = ’agroecologia, agroecologia, agricultura ecologica, agroecologico” there were 13 143 tweets
       <br>
-      2. English = ’agroecology, agroecological, agriculture ecological”
+      2. English = ’agroecology, agroecological, agriculture ecological” there were 296 656 tweets
       <br>
-      For each query we get, the existing # and @, who are the people who is writing,Terms extraction, Name entity recognition, geomapping and another several analysis
+      For each query we actually get just data in english and Spanish so that give us a better scope for analyze the data separetly.
     </p>
 
-    <h3>All the tweets by time</h3>
-    <img src="/img/twitter/yearsAllTweet.png" alt="" > 
+    <h3>The Tools used and how I did it?</h3>
+    <p>Get tweets can be easly and there is 2 option that will depends in your preference. The first option is to use the oficial <a href="https://developer.twitter.com/en/docs">Twitter API</a>, but it will give you no more than 3500 tweets most recent and the second option and more convenient for me is to use use <a class="title" href="https://github.com/twintproject/twint8" >Twin</a>  library for scrap all the tweets, and also you delimited the period of time you want</p>
 
     <h2>English Query</h2>
     <h3>Tweet by time</h3>
+    <p>We can see that the data in 2018 and 2019 increase a lot, and we still have to consider that 2019 is not finish and I made the scrapper in the begging of december</p>
     <img src="/img/twitter/YearsTweetsEnglish.png" alt="" >
 
     <h3>Map of who made the most common Term and Which Term</h3>
     <p>You can see in detail the map <a href="https://documents.cortext.net/0640/064094fe9fb318b3bafb1b6a5f2b65c8/156435/contingency_matrix-cleandataenfinal-tsv-csv-logFalse-username-Terms-y2008_2019-reordered-nFchi2.pdf">here</a></p>
+    
     <img src="/img/twitter/TermsUsers.png" alt="" >
 
-    <h3>Map of the most common hashtags related with the terms</h3>
-    <p>You can see the map in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/be78496e2c5c7e7087556f54db5201aa#">here</a></p>
-    <img src="/img/twitter/HashtagsMAp.png" alt="" >
+    <h3>Map of the most common hashtags related with the user</h3>
+    <p>There is a messy map that can tell us that most of the people almost use the same hashtags</p>
+    <p>You can see the map in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/2afc486cc9cb248807b71d02de1fd09c#">here</a></p>
+    <img src="/img/twitter/hashUserEN.png" alt="" >
  
     <h3>The most commons hashtags</h3>
+    <p>Here more organize table with the most common used hashtags</p>
     <img src="/img/twitter/MustHashtags.png" alt="" >
-
-    <h3>The most common users, who are talking about about the specific hashtag agroecology</h3>
-    <img src="/img/twitter/UserAgroecology.png" alt="">
 
     <h3>Which '@' are related to the hashtags</h3>
     <p>You can see in detail the map <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/c92c5d3652921ba772bc16a3931ad401#">here</a>
@@ -143,32 +144,30 @@
 
     <h3>The Most common Terms in the Data</h3>
     <p><br>You can see in detail the map <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/2532d5ae7615d817e3bb834af9997287">here</a> <br></p> 
+    <p><br>And you can see the terms extraction <a href="https://managerv2.cortext.net/view/csv/77439c846533207d5c52c33feb250bed">here</a> <br></p>
     <img src="/img/twitter/TermsNetwork.png" alt=""  >
 
-    <p><br>The terms extraction <a href="https://managerv2.cortext.net/view/csv/77439c846533207d5c52c33feb250bed">here</a> <br></p>
-    <img src="/img/twitter/TermsExtractionET.png" alt="">
-
+  
     <h3>The geoMapping with the countries involves in the tweets</h3>
     <p><br>You can see the network in detail <a href="https://geomapping.cortext.net/#/map/c007157f225f36a5199b01c1481b9d2a">here</a> <br></p>
     <img src="/img/twitter/mapTwitterEnglish.png" alt=""  >
 
-    <h2>Spanish Query</h2>
+    <h2><br> Spanish Query</h2>
     <h3>Tweet by Period</h3>
+    <p>Even when the ammount of data is different, we can see the same pattern that in english data</p>
     <img src="/img/twitter/YearsTweetsSpanish.png" alt="" >
 
     <h3>Map of who made the most common Term and Which Term</h3>
     <p><br>You can see the network in detail <a href="https://documents.cortext.net/fd3d/fd3ddc18a677db3d2a5618f85d8e2813/156558/contingency_matrix-dataesfinalhastaga-csv-logFalse-ISItermsNoMonoTerms-username-y2007_2019-reordered-nFchi2.pdf">here</a> <br></p>
     <img src="/img/twitter/UsersVsHashtagsES.png" alt=""  >
 
-    <h3>Map of the most common hashtags related with the terms</h3>
+    <h3>Map of the most common hashtags related with the user</h3>
     <p><br>You can see the network in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/ac63c2bd13463b1d399ea27721830cc6#">here</a> <br></p>
     <img src="/img/twitter/HashtagsUserES.png" alt=""  >
     
     <h3>The most commons hashtags</h3>
     <img src="/img/twitter/MustHashtagsES.png" alt="">
 
-    <h3>The most common users, who are talking about about the specific hashtag agroecology</h3>
-    <img src="/img/twitter/UserAgroecologyES.png" alt="">
 
     <h3>Which '@' are related to the hashtags</h3>
     <p><br>You can see the map in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/89503590275ce6b2c953e3bb51b63233#">here</a> <br></p>
@@ -176,15 +175,20 @@
   
     <h3>The Most common Terms in the Data</h3>
     <p><br>You can see the map in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/ecd963f287da1c5d5464c1e2f26c42f8#">here</a> <br></p>
-    <p><br>This terms extraction is bigger, so I take two shots for a better visualization<br></p>
+    <p>Also you can see the terms extraction <a href="https://managerv2.cortext.net/view/csv/55b26d4fc610dc7f9e50380f71fff1d8">here</a> <br></p>
+    <p><br>This terms extraction is bigger, so I take two shots for a better visualization, you can see in the second cortext,is more about the annonce of a book and editorial information <br></p>
     <img src="/img/twitter/TermsExtractionES1.png" alt="">
     <img src="/img/twitter/TermsExtractionES2.png" alt="">
-    <p><br>The terms extraction <a href="https://managerv2.cortext.net/view/csv/55b26d4fc610dc7f9e50380f71fff1d8">here</a> <br></p>
-    <img src="/img/twitter/MostCommonSpanishTerms.png" alt="">
 
     <h3>The geoMapping with the countries involves in the tweets</h3>
     <p><br>You can see the map in detail <a href="https://geomapping.cortext.net/#/map/45cdda0a2f37d483a79e95dd63cac67f">here</a> <br></p>
     <img src="/img/twitter/mapES.png" alt="">
+    
+    <h3>Conclusion</h3>
+    <p>In the twitter data, we can see more the present of ONG, and the terms is more about related to things technical and description of the agroecology. So twitter in comparation is more related to a information place </p>
+
+    <h3>Pending</h3>
+    <p>As in youtube make a deeper analysis in each year, for see if there is relationship with events and the activities</p>
   </div> 
 </div>
 
