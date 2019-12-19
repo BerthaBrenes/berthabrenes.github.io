@@ -105,7 +105,7 @@
 
 <div class="row">
     <div class="col-md-8 ml-auto mr-auto text-left">
-      <h2>Youtube Analysis</h2>
+     <center><h2>Youtube Analysis</h2></center>  
       <p>The first exploration with youTube was to look how much data there were in 84 language with a simple search in Yotube, using the query "agroecology"
         <br>Focos on just the 3 most important language for us, we get:
         <ol>
@@ -116,59 +116,68 @@
         
         <br>This exploration was presented in the first advance of the proyect(You can find the presentation <a href="https://gitlab.com/cortext/agroecology-exploration/intershipproject/tree/master/presentations">here</a>),
         as part of the recomendation it was to make a deeply search, looking videos by year or semester, changing the query too, making the Analysis and focus more in how are the people who are making videos. For this page, we will post the results of this search.
+      <br></p>
 
-      </p>
-      <h3>The Tools used and how I did it?</h3>
-      <p>For extract data from Youtube I used <a href="https://pytheas.cortext.net">pytheas</a> and also use some script to format the data in a easy way to read and analyze, also for add the captions that was extracted too from pytheas. Using pytheas was a decision of ease, I made a Tutorial of "how to use it" in <a href="https://medium.com/analytics-vidhya/pytheas-as-a-tool-to-get-youtubedata-3b238d698418">medium</a>. If you want to explore it a little bit, its free and opensource</p>
+      <center><h3>The Tools used and how I did it?</h3></center> 
+      <p>For extract data from Youtube I used <a href="https://pytheas.cortext.net">pytheas</a> and also use some script to format the data in a easy way to read and analyze, also for add the captions that was extracted too from pytheas. Using pytheas was a decision of ease, I made a Tutorial of "how to use it" in <a href="https://medium.com/analytics-vidhya/pytheas-as-a-tool-to-get-youtubedata-3b238d698418">medium</a>. If you want to explore it a little bit, its free and opensource <br></p>
       
       
-      <h3>Videos by year with the english query</h3>
+      <center><h3>Quantity of video searching by year with the english query</h3></center> 
       <p>There was 245 videos from 2006-2019 , the following image is the plot of all the videos founded between 2009-2019 in Youtube, ploted by year. I also made the exploration of videos from 2006-2019 but I didn't get any video that fit the query</p>
       <img src="/img/Youtube/yearsEnglish.png" alt="">
+        <p><br></p>
 
-      <h4>By semester</h4>
+      <center><h4>Quantity of video searching by semester with English Query</h4></center> 
       <p>Then I made the same search by semester, from 2007 to 2019, as you can see, there isn't videos from 2006-2008.</p>
       <img src="/img/Youtube/PeriodEnglishMonth.png" alt="">
-      
-      <h3>Videos by year with spanish query</h3>
+      <p><br></p>
+
+      <center><h3>Quantity of video searching by year with spanish query</h3></center> 
       <p>There was 3141 non duplicated videos from 2006-2019,this data is all filtered and cleaned. </p>
       <img src="/img/Youtube/videosByYearsES.png" alt="">
-      <h3>By semester</h3>
+      <p><br></p>
+      
+      <center><h3>Quantity of video searching by semester</h3></center> 
       <p>There was 4121 non duplicated videos from 2006-2019, like in English from 2016 the activity of the people start to growing up, but it is now in 2019 when you get more videos in Spanish </p>
       <img src="/img/Youtube/PeriodSpanishMonth.png" alt="">
-      
-      <h3>Network map with the terms and channel in English</h3>
+      <p><br></p>
+
+      <center><h3>Network map with the terms and channel in English</h3></center> 
       <p>You can see in detail the network <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/eb9ad747dce73a37871e7b62bc831836#">here</a> </p>
       <p>You can see there are colors isolated from other colors, thats means theses terms and channels are connected but are mentions in the data </p>
       <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/eb9ad747dce73a37871e7b62bc831836#"  width="800" height="800">
         <p>Your browser does not support iframes.</p>
       </iframe>
       <!--<img src="/img/Youtube/mapTermsChannel.png" alt="">-->
+      <p><br></p>
       
-      
-      <h3>In Spanish</h3>
+      <center><h3>In Spanish</h3></center> 
       <p>You can see in detail the map <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/6cfc353526c86fcf45d119b8bc3b025b#">here</a></p>
       <p>In this one is really funny how almost all the colors are related to the term 'agricultura ecologica' and the channels connect to other terms making a really compact red </p>
       <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/6cfc353526c86fcf45d119b8bc3b025b#"  width="800" height="800">
         <p>Your browser does not support iframes.</p>
       </iframe>
       <!--<img src="/img/Youtube/mapTermsChannelES.png" alt="">-->
-
-      <h3>Geo mapping of the total data in English</h3>
-      <p>This Location terms is extracted from what the people talk in the Title, description and captions of each videos, doesnt means is the place where the people are developing the projects</p>
-      <p><br> You can see the map in detail <a href="https://geomapping.cortext.net/#/map/e34fca57b86bc8fa109db5ed32ab16c7">here</a> </p>  
+      <p><br></p>
+      
+      <center><h3>Geo mapping of the total data in English</h3></center> 
+      <p>This Location terms is extracted from what the people talk in the Title, description and captions of each videos, doesnt means is the place where the people are developing the projects <br>
+      You can see the map in detail <a href="https://geomapping.cortext.net/#/map/e34fca57b86bc8fa109db5ed32ab16c7">here</a> </p>  
       <img src="/img/Youtube/mapEnglish.png" alt="">
+      <p><br></p>
 
-      <h3>In Spanish</h3>
-      <p>This Location terms is extracted from what the people talk in the Title, description and captions of each videos, doesnt means is the place where the people are developing the projects</p>
-      <p>You can see the map in detail <a href="https://geomapping.cortext.net/#/map/c098ea6b13c142e97b374e2bf5a2291e">here</a></p>
+      <center><h3>In Spanish</h3></center> 
+      <p>This Location terms is extracted from what the people talk in the Title, description and captions of each videos, doesnt means is the place where the people are developing the projects <br>
+      You can see the map in detail <a href="https://geomapping.cortext.net/#/map/c098ea6b13c142e97b374e2bf5a2291e">here</a></p>
       <img src="/img/Youtube/mapSpanish.png" alt="">  
+      <p><br></p>
 
-      <h3>Conclusions</h3>
+      <center><h3>Conclusions</h3></center> 
       <p>By year is less data than by semester. But in the case of the English I was expecting more video, mainly because the english is the universal language and because in the first exploration I get 4 times the ammount of data making a non data search; but apparently is the only data Youtube wanted to give to me
         <br>In the network map is we explorer a little bit more each node, for see who are the people who are talking; we can see more presence of individual people uploading videos in the Spanish Data, more instead in the English Data, there is more like ONG and institution making and uploading videos.
-      </p>
-      <h3>Pending</h3>
+      <br></p>
+    
+      <center><h3>Pending</h3></center> 
       <p>Go deeply in the analysis for look in each year, for see what activities are being developed and that could give us a better understanding of the why there is more data in one year than in another  </p>
     </div> 
   </div>
