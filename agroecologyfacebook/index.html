@@ -162,7 +162,7 @@
 
 <div class="row">
     <div class="col-md-8 ml-auto mr-auto text-left">
-        <h2>Facebook Analysis</h2>
+        <center><h2>Facebook Analysis</h2></center> 
         <p>When you use you personal account to extract data, the page will try to configurate all the pages in your language, in my case Spanish; therefore the text extraction it was in Spanish even when the queries was in english <br>
         Thus the idea of analyze the information by language it wasn't an option and the best way was to merge everything for the analysis
         <br>In any case is important to mention that we use two queries: one for english and spanish.
@@ -171,23 +171,24 @@
           <li>Agroecology OR Agroecological (12000 text publication)</li>
         </ol>
         And we didnt use the separation of the word agroecology with "-" because in Facebook its not relevant and get the same results.
-        <br>Note: This data is exclusive of text publication</p>
+        <br>Note: This data is exclusive of text publication <br></p>
         
-        <h3>The Tools used and how I did it?</h3>
+        <center><h3>The Tools used and how I did it?</h3></center> 
         <p>The best way to extract data from Facebook is scrapping the page, unless if you have a complete and finished application, maybe Facebook can approve it and give you access to the oficial API(with limit access) not even let you scrap with freedom, but after all the struggles that facebook had with personal information is complety understanding this new rules <br>
-          So I made my own script following the same structure of my first tutorial of scrapping, I also wrote a post on <a href="https://medium.com/@bertacaro1996/is-possible-to-scrap-facebook-data-in-2019-65b26e6ec07">medium</a> about it</p>
+          So I made my own script following the same structure of my first tutorial of scrapping, I also wrote a post on <a href="https://medium.com/@bertacaro1996/is-possible-to-scrap-facebook-data-in-2019-65b26e6ec07">medium</a> about it <br></p>
         
-        <h3>Network map of the most used hashtags and the pages </h3>
+        <center><h3>Network map of the most used hashtags and the pages </h3></center> 
         <p>Extracting hashtags from the text publication and then associated with the pages who use it, the extraction was using cortext terms extraction</p>
         <p>You can see the network map in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/1bc35eb4733fb22cb95b14b61bba101b#">here</a></p>
         <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/1bc35eb4733fb22cb95b14b61bba101b#"  width="800" height="800">
           <p>Your browser does not support iframes.</p>
         </iframe>
+        <p><br></p>
         <!--<img src="/img/facebook/HashtagsUSers.png" alt="">-->
         
         
-        <h3>The top 5 of pages by Likes</h3>
-        <h4>Merge Data</h4>
+        <center><h3>The top 5 of pages by Likes</h3></center> 
+        <p>The table below correspond to all the pages in Facebook(English and Spanish Data)</p>
         <style type="text/css">
           .tg  {border-collapse:collapse;border-spacing:0;}
           .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -224,10 +225,12 @@
               <td class="tg-0pky">1</td>
             </tr>
           </table>
-        
-        <h3>The Pages with the most quantity of publications</h3>
+        <p><br></p>
+       
+       <center><h3>The Pages with the most quantity of publications</h3></center> 
         <p>All the Data Merged with all the pages and their posts<br>
-         You can see in detail the 2 photos  <a href="https://photos.app.goo.gl/sE8V5pJ41YyUXoq37">here</a> and <a href="https://photos.app.goo.gl/khGQgXPP5b2UaoHz5">here</a> </p>
+         You can see in detail the 2 photos  <a href="https://photos.app.goo.gl/sE8V5pJ41YyUXoq37">here</a> and <a href="https://photos.app.goo.gl/khGQgXPP5b2UaoHz5">here</a> 
+        <br>Mouse over the image for a zoom:</p>
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {box-sizing: border-box;}
@@ -254,9 +257,6 @@
 </style>
 
 
-
-<p>Mouse over the image for a zoom:</p>
-
 <div class="img-zoom-container">
   <img id="myimage" src="/img/facebook/MostComment1Merge.png" width="800" height="400">
   <div id="myresult" class="img-zoom-result"></div>
@@ -272,29 +272,34 @@ imageZoom("myimage", "myresult");
 <script>
   imageZoom("myimage2", "myresult2");
 </script>
-<h3>Network map of the terms extracted from the image related to the pageName</h3>
+<p><br></p>
+
+<center><h3>Network map of the terms extracted from the image related to the pageName</h3></center> 
 <p>You can see in detail the map <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/9c92c0a1d1e232381539b230437feabb">here</a> </p>
 <p>These terms was extracted from the description of each image, so these will tell us what type of photo the people share</p>
 <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/9c92c0a1d1e232381539b230437feabb"  width="800" height="800">
   <p>Your browser does not support iframes</p>
 </iframe>
-<h3>Network map of the terms extracted from the text Publication related to the Page Name</h3>
+<p><br></p>
+<center><h3>Network map of the terms extracted from the text Publication related to the Page Name</h3></center> 
 <p>You can see in detail the project here <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/1348ed19a421e40f463905f0e785c709"></a></p>
 <p>These terms is extracted from the text publication, the network map is really messy and that happends because there is a lot of page that talks about the same terms. <br>
 Most of these terms are related to events, dates and organization so its means that in Facebook the people use more the publication as way to announce </p>
 <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/1348ed19a421e40f463905f0e785c709"  width="800" height="800">
   <p>Your browser does not support iframes</p>
 </iframe>
-  <h3>Geomap using the NER of the Text Publication</h3>
-  <p>This Location terms if abouth what the people talk, doesnt means is the place where the people are hosted. Most of the terms are related to events, conference and activities <br>
+<p><br></p>
+<center><h3>Geomap using the NER of the Text Publication</h3></center> 
+<p>This Location terms if abouth what the people talk, doesnt means is the place where the people are hosted. Most of the terms are related to events, conference and activities <br>
   You can see in detail the map <a href="https://geomapping.cortext.net/#/map/5d9833e2920818af9b169d2824223423">here</a></p>
-  
-  <img src="/img/facebook/mapFacebook.png" alt="">
-  <h3>Conclusions</h3>
-  <p>For me it was really curious to see that the page that made the biggest amount of Text Publication was not the one with the biggest amount of likes in the page.</p>
+<img src="/img/facebook/mapFacebook.png" alt="">
+<p><br></p>
 
-  <h3>Pending</h3>
-  <p>The way I made this scrapper is good in sintesis but still have some points to fix and get better for example, identify the type of publication and clasify differently each type of publication(video, replies, images, just text post), better extract of dates and real text <br>  </p>
+<center><h3>Conclusions</h3></center> 
+<p>For me it was really curious to see that the page that made the biggest amount of Text Publication was not the one with the biggest amount of likes in the page.</p>
+
+<center><h3>Pending</h3></center> 
+<p>The way I made this scrapper is good in sintesis but still have some points to fix and get better for example, identify the type of publication and clasify differently each type of publication(video, replies, images, just text post), better extract of dates and real text <br>  </p>
 
 </div> 
   </div>
