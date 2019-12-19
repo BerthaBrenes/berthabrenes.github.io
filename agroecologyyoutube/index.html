@@ -121,7 +121,7 @@
       <center><h3>The Tools used and how I did it?</h3></center> 
       <p>For extract data from Youtube I used <a href="https://pytheas.cortext.net">pytheas</a> and also use some script to format the data in a easy way to read and analyze, also for add the captions that was extracted too from pytheas. Using pytheas was a decision of ease, I made a Tutorial of "how to use it" in <a href="https://medium.com/analytics-vidhya/pytheas-as-a-tool-to-get-youtubedata-3b238d698418">medium</a>. If you want to explore it a little bit, its free and opensource <br></p>
       
-      
+      <center><h2>1. Data with English Query</h2></center>
       <center><h3>Quantity of video searching by year with the english query</h3></center> 
       <p>There was 245 videos from 2006-2019 , the following image is the plot of all the videos founded between 2009-2019 in Youtube, ploted by year. I also made the exploration of videos from 2006-2019 but I didn't get any video that fit the query</p>
       <img src="/img/Youtube/yearsEnglish.png" alt="">
@@ -131,6 +131,24 @@
       <p>Then I made the same search by semester, from 2007 to 2019, as you can see, there isn't videos from 2006-2008.</p>
       <img src="/img/Youtube/PeriodEnglishMonth.png" alt="">
       <p><br></p>
+    
+      <center><h3>Network map with the terms and channel in English</h3></center> 
+      <p>You can see in detail the network <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/eb9ad747dce73a37871e7b62bc831836#">here</a> </p>
+      <p>You can see there are colors isolated from other colors, thats means theses terms and channels are connected but are mentions in the data </p>
+      <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/eb9ad747dce73a37871e7b62bc831836#"  width="800" height="800">
+        <p>Your browser does not support iframes.</p>
+      </iframe>
+      <!--<img src="/img/Youtube/mapTermsChannel.png" alt="">-->
+      <p><br></p>
+
+      <center><h3>Geo mapping of the total data in English</h3></center> 
+      <p>This Location terms is extracted from what the people talk in the Title, description and captions of each videos, doesnt means is the place where the people are developing the projects <br>
+      You can see the map in detail <a href="https://geomapping.cortext.net/#/map/e34fca57b86bc8fa109db5ed32ab16c7">here</a> </p>  
+      <img src="/img/Youtube/mapEnglish.png" alt="">
+      <p><br></p>
+
+
+      <center><h2>2. Data with Spanish Query</h2></center>
 
       <center><h3>Quantity of video searching by year with spanish query</h3></center> 
       <p>There was 3141 non duplicated videos from 2006-2019,this data is all filtered and cleaned. </p>
@@ -141,17 +159,8 @@
       <p>There was 4121 non duplicated videos from 2006-2019, like in English from 2016 the activity of the people start to growing up, but it is now in 2019 when you get more videos in Spanish </p>
       <img src="/img/Youtube/PeriodSpanishMonth.png" alt="">
       <p><br></p>
-
-      <center><h3>Network map with the terms and channel in English</h3></center> 
-      <p>You can see in detail the network <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/eb9ad747dce73a37871e7b62bc831836#">here</a> </p>
-      <p>You can see there are colors isolated from other colors, thats means theses terms and channels are connected but are mentions in the data </p>
-      <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/eb9ad747dce73a37871e7b62bc831836#"  width="800" height="800">
-        <p>Your browser does not support iframes.</p>
-      </iframe>
-      <!--<img src="/img/Youtube/mapTermsChannel.png" alt="">-->
-      <p><br></p>
-      
-      <center><h3>In Spanish</h3></center> 
+     
+      <center><h3>Network map with the terms and channel in Spanish</h3></center> 
       <p>You can see in detail the map <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/6cfc353526c86fcf45d119b8bc3b025b#">here</a></p>
       <p>In this one is really funny how almost all the colors are related to the term 'agricultura ecologica' and the channels connect to other terms making a really compact red </p>
       <iframe src="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/6cfc353526c86fcf45d119b8bc3b025b#"  width="800" height="800">
@@ -160,13 +169,7 @@
       <!--<img src="/img/Youtube/mapTermsChannelES.png" alt="">-->
       <p><br></p>
       
-      <center><h3>Geo mapping of the total data in English</h3></center> 
-      <p>This Location terms is extracted from what the people talk in the Title, description and captions of each videos, doesnt means is the place where the people are developing the projects <br>
-      You can see the map in detail <a href="https://geomapping.cortext.net/#/map/e34fca57b86bc8fa109db5ed32ab16c7">here</a> </p>  
-      <img src="/img/Youtube/mapEnglish.png" alt="">
-      <p><br></p>
-
-      <center><h3>In Spanish</h3></center> 
+      <center><h3>Geo mapping of the total data in Spanish</h3></center> 
       <p>This Location terms is extracted from what the people talk in the Title, description and captions of each videos, doesnt means is the place where the people are developing the projects <br>
       You can see the map in detail <a href="https://geomapping.cortext.net/#/map/c098ea6b13c142e97b374e2bf5a2291e">here</a></p>
       <img src="/img/Youtube/mapSpanish.png" alt="">  
