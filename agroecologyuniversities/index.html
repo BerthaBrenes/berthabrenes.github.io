@@ -105,35 +105,29 @@
 
 <div class="row">
     <div class="col-md-8 ml-auto mr-auto text-left">
-        <h3> The AgroEcology Domain in Costa Rica Data Analysis of Universities online libraries </h3>
-        <p>For understand how is the relance of the agroecology in the country we must look into the universities and research center, to see how many papers, articles, books they are generating. Thats will give us a better view of the relance in the country about about certain topics</p>
-        <p>In each university we look into the online repository, specially all the documents that fit with the query 'agroecologia'. Therefore on each file we look for the periods of time, language, type of file, common terms, geolocalization the terms, for make a network mapping.
-          <br>
-          <br> </p>
-          <h3>
-            The Tools used and how I did it?
-          </h3>
-          <p>For extract big ammount of data from repositories online, there is three way. First one the repository has the option to select multiple files and download the metadata, Second option is to ask at the university the information you want and Third option is to scrap by yourself and your criteria the repository page <br>
-          So for each each university I made differents scrapers, in some cases the repository requires of credentials and others no. In case of necesity I ask my friends of each university for their credentials.           
-        </p> 
-          <p>Here a little <a class="title" href="https://medium.com/@bertacaro1996/web-scrapping-tutorial-b7f7bd509348" >Tutorial</a> about how to make this scraper </p>
-       
-    
-        <h3>1. Quantity of data by Universities</h3>
+      <center><h3> The AgroEcology Domain in Costa Rica Data Analysis of Universities online libraries </h3></center>  
+        <p> For understand how is the relance of the agroecology in the country we must look into the universities and research center, to see how many papers, articles, books they are generating. Thats will give us a better view of the relance in the country about about certain topics</p>
+        <p>In each university we look into the online repository, specially all the documents that fit with the query 'agroecologia'. Therefore on each file we look for the periods of time, language, type of file, common terms, geolocalization the terms, for make a network mapping. </p>
+      
+      <center><h3>The Tools used and how I did it? </h3></center>  
+        <p>For extract big ammount of data from repositories online, there is three way. First one the repository has the option to select multiple files and download the metadata, Second option is to ask at the university the information you want and Third option is to scrap by yourself and your criteria the repository page <br>
+          So for each each university I made differents scrapers, in some cases the repository requires of credentials and others no. In case of necesity I ask my friends of each university for their credentials.           </p> 
+        <p>Here a little <a class="title" href="https://medium.com/@bertacaro1996/web-scrapping-tutorial-b7f7bd509348" >Tutorial</a> about how to make this scraper <br> </p
+      
+      <center><h3>1. Quantity of data by Universities</h3></center>
         <img src="/img/universities/US.png" alt="" > 
-        <p>
-            Each University was filtered for not having equal type information
+        <p>Each University was filtered for not having equal type information
             <br>
             There are papers, books, research projects, journals and presentation so we have also to considers too the diversity of each university.
-        </p>
-        <h3>2. Quantity of data by language</h3>
-        
+       <br> </p>
+       <center><h3>2. Quantity of data by language</h3></center>
         <img src="/img/universities/idiomas.png" alt="" >
         <p>Spanish is the most widely used language in this database. But there are still some projects in french, catalan and italian.
             <br>
             This can mean a variety of collaborative between other universities or files from other countries hosted in costa rican datasets
-        </p>
-        <h3>3. Quantity of Articles by Countries</h3>
+       <br> </p>
+
+       <center><h3>3. Quantity of Articles by Countries</h3></center>
         <img src="/img/universities/mapU.png" alt="" >
         <p>These countries were founded in the abstract, title and description of each file, but it does can means to many things</p>
         <p><br>The top 3 of countries in the articles are:<br></p>
@@ -142,28 +136,31 @@
             <li>Mexico</li>
             <li>Brazil</li>
         </ul>
-        <p>You can see in detail the map <a href="https://geomapping.cortext.net/#/map/0c78e35c1045debaec31d0c151588c72">here</a></p> 
-
-        <h3>4. Network explorer with the NER in Spanish data</h3>
+        <p>You can see in detail the map <a href="https://geomapping.cortext.net/#/map/0c78e35c1045debaec31d0c151588c72">here</a><br></p> 
+        
+        <center><h3>4. Network explorer with the NER in Spanish data</h3></center>
         <p>You can see the network in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/71009f40c2a5d4cadf75be914ed9004f">here</a>
         <br></p>
         <p><br>The most frequent terms in the Spanish data, we can see the most commons terms talks about several topic but more about manage and techniques<br></p> 
         <img src="/img/universities/NERU1.png" alt=""  >
         <img src="/img/universities/NERU2.png" alt=""  >
-        
         <p>We can see the network map here, how each terms are related to other, like a red</p>
         <img src="/img/universities/NERU3.png" alt=""  >
+        <p><br></p><br>
 
-        <h3>5. Network explorer with the NER in English data</h3>
-        <p><br>You can see the network in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/f6ab5247c17b99173ffd293fce4cd7b4">here</a> <br></p>
+        <center><h3>5. Network explorer with the NER in English data</h3></center>
+        <p>You can see the network in detail <a href="https://documents.cortext.net/lib/mapexplorer/explorerjs.html?file=https://assets.cortext.net/docs/f6ab5247c17b99173ffd293fce4cd7b4">here</a> <br></p>
         <p><br>The most frequent terms in the english data<br></p>
         <img src="/img/universities/NERU4.png" alt=""  >
         <p>In this case the network map is more scattered, and not too much related one to another</p>
         <img src="/img/universities/NERU5.png" alt="" >
-        <h3>Conclusion</h3>
+        <p><br></p>
+
+        <center><h3>Conclusion</h3></center>
         <p>As student of a public university I know there is still a lot of files that aren't digitalize so this can make it difficult the scrapping, also with the UCR I think there is more data, so I can suppose not all the data are online and public <br></p>
-        <h3>Pending</h3>
-        <p>In the process of the internship and in the mining data in Youtube,Facebook and Twiter we expand the query, so I think maybe if we make the scrapper again with expand query it will maybe give us more data </p>
+        
+        <center><h3>Pending</h3></center>
+        <p>In the process of the internship and in the mining data in Youtube,Facebook and Twiter we expand the query, so I think maybe if we make the scrapper again with expand query it will maybe give us more data <br> </p>
 
         <div>
             <ul>
